@@ -1,9 +1,4 @@
-h1
-{
-    font-family: 'Source Sans Pro', sans-serif;
-}
-
-a
+h1, h2, a
 {
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -11,7 +6,12 @@ a
 
 .nav
 {
-    padding-top: 8px;
+    position:fixed;
+    height:25px;
+    background-color: #FFF;
+    width: 100%;
+    z-index:99999;
+    border-bottom: 1px solid #dbdbdb;
 }
 
     .nav a
@@ -32,7 +32,7 @@ a
 .jumbotron
 {
     background:url('gnome.png') no-repeat center;
-    height: 400px;
+    height: 500px;
 }
 
     .jumbotron .container
@@ -54,6 +54,13 @@ a
         font-size: 20px;
         color: #fff;
     }
+
+
+#about
+{
+    text-align: center;
+    margin-bottom:36px;
+}
 
 
 .picture-grid
